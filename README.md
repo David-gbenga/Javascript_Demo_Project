@@ -7,14 +7,19 @@ total  = parseFloat(total).toFixed(2);
 moneyPaid = parseFloat(moneyPaid).toFixed(2);
 
 // calculate the change to be given to customer with a decimal place of 2
+
 var change = (moneyPaid-total).toFixed(2);
 
 //Print the transaction summary 
+
+
 console.log('Amount due $' + total + '/Amount Paid $' + moneyPaid + '/change $' + change);
 /*notes 
 50, 20, 10, 5
 coins
 2, 1,50,20,10,5,2,1p*/
+
+
 var note_coins = [
     {
         value: 50,
